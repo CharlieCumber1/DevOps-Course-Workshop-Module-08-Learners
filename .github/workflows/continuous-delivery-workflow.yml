@@ -20,9 +20,9 @@ jobs:
 
     - name: Deploy to Heroku
       uses: akhileshns/heroku-deploy@v3.6.8
-        with:
-          heroku_api_key: ${{ secrets.HEROKU_API_KEY }}
-          heroku_app_name: "frozen-cliffs-45304" 
-          heroku_email: "charlie.cumber@softwire.com"
-          usedocker: true
+      with:
+        heroku_api_key: ${{ secrets.HEROKU_API_KEY }}
+        heroku_app_name: "frozen-cliffs-45304" 
+        heroku_email: "charlie.cumber@softwire.com"
+        usedocker: true
 
