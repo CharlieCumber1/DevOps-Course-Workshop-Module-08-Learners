@@ -25,4 +25,8 @@ jobs:
         heroku_app_name: "frozen-cliffs-45304" 
         heroku_email: "charlie.cumber@softwire.com"
         usedocker: true
+        healthcheck: https://oskwil-dotnettemplate.herokuapp.com/health
+        checkstring: Healthy
+        rollbackonhealthcheckfailed: true
+        delay: 60
 
